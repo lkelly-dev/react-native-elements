@@ -101,6 +101,7 @@ class Search extends Component {
             style={[styles.icon, styles.searchIcon, icon.style && icon.style]}
             name={icon.name || 'search'}
             color={icon.color || colors.grey3}
+            onPress={icon.clear ? this.clear.bind(this) : null}
           />
         )}
         {clearIcon && (
