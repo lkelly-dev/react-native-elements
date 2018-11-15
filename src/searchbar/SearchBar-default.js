@@ -78,7 +78,7 @@ class Search extends Component {
           containerStyle && containerStyle,
         ]}
       >
-      <View style={{flex: 1}}>
+      <View style={{flex: 1, alignItems: 'flex-start'}}>
       {customBackButton}
         <TextInput
           {...attributes}
