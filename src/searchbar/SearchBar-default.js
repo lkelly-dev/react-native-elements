@@ -60,6 +60,7 @@ class Search extends Component {
       clearIcon,
       containerRef,
       underlineColorAndroid,
+      customBackButton
       ...attributes
     } = this.props;
 
@@ -77,6 +78,8 @@ class Search extends Component {
           containerStyle && containerStyle,
         ]}
       >
+      <View style={{flex: 1}}>
+      {customBackButton}
         <TextInput
           {...attributes}
           ref={this.getRefHandler()}
@@ -95,6 +98,7 @@ class Search extends Component {
             },
           ]}
         />
+        </View>
         {!noIcon && (
           <Icon
             size={icon.size || 16}
