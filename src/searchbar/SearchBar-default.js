@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.grey4,
   },
   searchIcon: {
-    left: 16,
+    left: 44,
   },
   clearIcon: {
     right: 16,
