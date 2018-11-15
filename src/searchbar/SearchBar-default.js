@@ -51,7 +51,7 @@ class Search extends Component {
     const {
       containerStyle,
       inputStyle,
-      customContainerStyle
+      customContainerStyle,
       icon,
       noIcon,
       lightTheme,
