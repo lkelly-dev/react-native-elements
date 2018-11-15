@@ -60,7 +60,7 @@ class Search extends Component {
       clearIcon,
       containerRef,
       underlineColorAndroid,
-      customBackButton
+      customBackButton,
       ...attributes
     } = this.props;
 
